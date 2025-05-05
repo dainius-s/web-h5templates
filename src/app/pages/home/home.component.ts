@@ -4,6 +4,7 @@ import {ParticlesConfig} from './particles.config';
 declare let particlesJS: any;
 
 @Component({
+  standalone: false,
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
