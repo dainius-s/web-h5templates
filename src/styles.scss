@@ -1,0 +1,23 @@
+@import "assets/scss/variables";
+@import "assets/scss/bootstrap";
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:300");
+
+
+/* section */
+section {
+  padding: 5rem 0;
+
+  .section-title {
+    font-size: 3.75rem;
+    margin-bottom: 5rem;
+  }
+}
+
+/* backgrounds */
+.dots-bg {
+  background-image: radial-gradient(#dedede 10%, transparent 15%);
+  background-size: 12px 12px;
+  margin: 6px 0;
+}
+

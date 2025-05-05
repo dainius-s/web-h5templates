@@ -1,0 +1,22 @@
+.client {
+  //transform: rotate(7deg);
+  position: relative;
+  transition: all .35s ease-in-out;
+
+  img {
+    transition: all 0s linear;
+  }
+
+  &:hover, &:focus {
+    opacity: 0.75;
+
+    transform: scale(1.15);
+    z-index: 1;
+
+    img {
+      width: initial;
+      height: initial;
+      //transform: scale(.83333);
+    }
+  }
+}
