@@ -13,11 +13,14 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "standalone": false,
-          "style": "scss"
+          "style": "scss",
+          "standalone": false
         },
-        "@schematics/angular:application": {
-          "strict": true
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
         }
       },
       "root": "",
@@ -30,7 +33,9 @@
             "outputPath": "dist/h5templates",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [

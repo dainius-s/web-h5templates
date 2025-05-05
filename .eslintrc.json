@@ -13,7 +13,7 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
-        // You can override rules here
+        "@typescript-eslint/prefer-standalone": "off"
       }
     },
     {
